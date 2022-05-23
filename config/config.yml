@@ -61,7 +61,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Elmer - iDrac"
-        logo: "assets/tools/sample.png"
+        icon: "fa-thin fa-rectangle-wide"
         subtitle: "Lights Out Monitoring"
         tag: "app"
         url: "https://10.10.30.13/login.html/"
