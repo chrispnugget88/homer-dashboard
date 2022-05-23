@@ -71,7 +71,7 @@ services:
         tag: "app"
         url: "https://10.10.0.102/"
       - name: "Scrutiny"
-        logo: "assets/tools/sample.png"
+        logo: "fa-thin fa-file-medical"
         subtitle: "SMART data at a glance"
         tag: "app"
         url: "https://10.10.0.102/"
