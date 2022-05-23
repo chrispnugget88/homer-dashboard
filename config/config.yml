@@ -53,7 +53,7 @@ links:
     url: "https://tcude.net" 
 
 message:
-  url: http://ifconfig.co/json
+  url: http://ifconfig.me/all.json
   mapping:
     content: 'ip'
   title: "External IP"
