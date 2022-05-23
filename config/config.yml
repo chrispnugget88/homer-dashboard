@@ -7,6 +7,7 @@ logo: https://toppng.com/uploads/preview/cloud-server-icon-cloud-server-icon-tra
 
 header: true
 footer: false
+columns: 1
 
 # Optional theme customization
 theme: default
