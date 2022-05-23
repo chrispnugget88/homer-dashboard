@@ -1,8 +1,8 @@
 ---
 # Homer Server Config
 
-title: "Server Something"
-subtitle: "dashboard"
+title: "ServerDashboard"
+subtitle: "Homer"
 logo: https://toppng.com/uploads/preview/cloud-server-icon-cloud-server-icon-transparent-11553431819ztspeiwmck.png
 
 header: true
