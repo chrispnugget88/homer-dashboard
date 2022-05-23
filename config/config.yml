@@ -3,7 +3,7 @@
 
 title: "ServerDashboard"
 subtitle: "Homer"
-logo: https://toppng.com/uploads/preview/cloud-server-icon-cloud-server-icon-transparent-11553431819ztspeiwmck.png
+icon: "fa-thin fa-rectangle-wide"
 
 header: true
 footer: false
