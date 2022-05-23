@@ -55,7 +55,7 @@ links:
 message:
   url: https://ifconfig.me/all.json
   mapping:
-    content: 'ip'
+    content: 'ip_addr'
   title: "External IP"
   content: "Could not get external IP"
 
