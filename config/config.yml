@@ -3,7 +3,7 @@
 
 title: "ServerDashboard2.1"
 subtitle: "Homer"
-icon: "fal fa-rectangle-wide"
+icon: "far fa-stop-circle"
 
 header: true
 footer: true
