@@ -7,7 +7,7 @@ icon: "fa-thin fa-rectangle-wide"
 
 header: true
 footer: false
-columns: 1
+columns: 2
 
 # Optional theme customization
 theme: default
