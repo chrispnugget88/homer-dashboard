@@ -52,6 +52,13 @@ links:
     icon: "fas fa-file-alt"
     url: "https://tcude.net" 
 
+message:
+  url: http://ifconfig.co/json
+  mapping:
+    content: 'ip'
+  title: "External IP"
+  content: "Could not get external IP"
+
 # Services
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
