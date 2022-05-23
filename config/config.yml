@@ -5,8 +5,8 @@ title: "ServerDashboard"
 subtitle: "Homer"
 icon: "fa-thin fa-rectangle-wide"
 
-header: false
-footer: false
+header: true
+footer: true
 
 # Optional theme customization
 theme: default
