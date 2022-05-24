@@ -67,10 +67,10 @@ message:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "HP ILO Control"
+  - name: "HPE ILO Control"
     icon: "fas fa-cloud"
     items:
-      - name: "HPE DL380p - Rumble"
+      - name: "Proliant DL380p - Rumble"
         icon: "fas fa-tools"
         subtitle: "Integrated Lights Out Control"
         tag: "ilo4 control"
