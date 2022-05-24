@@ -7,7 +7,7 @@ logo: "https://raw.githubusercontent.com/chrispnugget88/homer-dashboard/main/ass
 
 header: true
 footer:
-  url: https://ifconfig.me/all.json
+  url: "https://ifconfig.me/all.json"
   mapping:
     content: 'ip_addr'
 
@@ -67,89 +67,13 @@ message:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Server Monitoring"
+  - name: "HP ILO Control"
     icon: "fas fa-cloud"
     items:
-      - name: "Elmer - iDrac"
+      - name: "Ilo - Rumble"
         icon: "fas fa-air-conditioner"
         subtitle: "Lights Out Monitoring"
         tag: "app"
-        url: "https://10.10.30.13/login.html/"
+        url: "https://192.168.0.93/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Daffy - iLO"
-        logo: "assets/tools/sample.png"
-        subtitle: "Lights Out Monitoring"
-        tag: "app"
-        url: "https://10.10.0.102/"
-      - name: "Scrutiny"
-        logo: "fa-thin fa-file-medical"
-        subtitle: "SMART data at a glance"
-        tag: "app"
-        url: "https://10.10.0.102/"
-  - name: "Virtualization"
-    icon: "fas fa-cloud"
-    items:
-      - name: "vCenter"
-        logo: "assets/tools/sample.png"
-        subtitle: "vCenter Appliance"
-        tag: "app"
-        url: "https://vcenter.tcudelocal.net"
-        target: "_blank" # optional html a tag target attribute
-      - name: "ESXi - Elmer"
-        logo: "assets/tools/sample.png"
-        subtitle: "ESXi Management Page"
-        tag: "app"
-        url: "https://elmer.tcudelocal.net"
-      - name: "ESXi - Daffy"
-        logo: "assets/tools/sample.png"
-        subtitle: "ESXi Management Page"
-        tag: "app"
-        url: "https://daffy.tcudelocal.net"
-  - name: "Media Server"
-    icon: "fas fa-cloud"
-    items:
-      - name: "Plex"
-        logo: "assets/tools/sample.png"
-        subtitle: "Plex Media Server"
-        tag: "app"
-        url: "https://10.10.2.101:32400"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Tautulli"
-        logo: "assets/tools/sample.png"
-        subtitle: "Plex Monitoring and Management"
-        tag: "app"
-        url: "https://10.10.2.101:8181"
-      - name: "Scrutiny"
-        logo: "assets/tools/sample.png"
-        subtitle: "SMART Info at a Glance"
-        tag: "app"
-        url: "10.10.2.101:8080/web/dashboard"
-      - name: "Portainer - svr-plex-01"
-        logo: "assets/tools/sample.png"
-        subtitle: "Portainer instance residing on svr-plex-01"
-        tag: "app"
-        url: "http://10.10.2.101:9000/#!/home"
-  - name: "Management"
-    icon: "fas fa-cloud"
-    items:
-      - name: "Unifi"
-        logo: "assets/tools/sample.png"
-        subtitle: "Personal Unifi Network"
-        tag: "app"
-        url: "https://10.10.0.1/login?redirect=%2F"
-        target: "_blank" # optional html a tag target attribute
-      - name: "UptimeRobot"
-        logo: "assets/tools/sample.png"
-        subtitle: "Monitor Service Uptime"
-        tag: "app"
-        url: "https://stats.uptimerobot.com/onVGVcXOB6"
-      - name: "Cloudflare"
-        logo: "assets/tools/sample.png"
-        subtitle: "DNS and WAF"
-        tag: "app"
-        url: "https://dash.cloudflare.com/login"
-      - name: "Portainer - svr-docker-01"
-        logo: "assets/tools/sample.png"
-        subtitle: "Portainer instance residing on svr-docker-01"
-        tag: "app"
-        url: "http://10.10.80.192:9000/#!/home"
+
