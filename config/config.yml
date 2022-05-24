@@ -1,12 +1,15 @@
 ---
 # Homer Server Config
 
-title: "ServerDashboard2.1.3"
+title: "ServerDashboard2.1.4"
 subtitle: "Homer"
 logo: "https://raw.githubusercontent.com/chrispnugget88/homer-dashboard/main/assets/hpe_1.svg"
 
 header: true
-footer: true
+footer:
+  url: https://ifconfig.me/all.json
+  mapping:
+    content: 'ip_addr'
 
 # Optional theme customization
 theme: default
