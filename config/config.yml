@@ -70,9 +70,9 @@ services:
   - name: "HP ILO Control"
     icon: "fas fa-cloud"
     items:
-      - name: "Ilo - Rumble"
+      - name: "HPE DL380p - Rumble"
         icon: "fas fa-tools"
-        subtitle: "Lights Out Monitoring"
+        subtitle: "Integrated Lights Out Control"
         tag: "ilo4 control"
         url: "https://192.168.0.93/"
         target: "_blank" # optional html a tag target attribute
