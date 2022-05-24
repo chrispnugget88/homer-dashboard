@@ -3,7 +3,7 @@
 
 title: "ServerDashboard2.1.4"
 subtitle: "Homer"
-logo: "<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"><path d="M0 186.2h512v139.6H0V186.2zm34.9 34.9h442.2v69.8H34.9v-69.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#00c781"/></svg>"
+logo: "https://raw.githubusercontent.com/chrispnugget88/homer-dashboard/main/assets/hpe_1.svg"
 
 header: true
 footer:
