@@ -73,7 +73,7 @@ services:
       - name: "Ilo - Rumble"
         icon: "fas fa-air-conditioner"
         subtitle: "Lights Out Monitoring"
-        tag: "app"
+        tag: "ilo4 control"
         url: "https://192.168.0.93/"
         target: "_blank" # optional html a tag target attribute
 
